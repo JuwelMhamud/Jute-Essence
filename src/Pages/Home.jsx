@@ -1,9 +1,16 @@
+import ArtCraft from "../Components/ArtCraft";
+import ArtCraftCategory from "../Components/ArtCraftCategory";
+import Banner from "../Components/Banner";
+import Newsletter from "../Components/Newsletter";
 
 const Home = () => {
     return (
-        <h2>
-            This is Home Page
-        </h2>
+        <>
+            <Banner/>
+            <ArtCraft/>
+            <ArtCraftCategory/>
+            <Newsletter/>
+        </>
     );
 };
 
